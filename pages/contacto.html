@@ -4,58 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css.style/style.css">
     <link rel="shortcut icon" href="../images/Logo2.jpg" type="image/x-icon">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="container-grid">
-    <section>
-<header class="header-grid">
-    <nav class="flex-container">
-        <img style="filter: brightness(1:1); mix-blend-mode: multiply" src="../images/Logo2.jpg" alt="logo" class="logoinicio">
- <ul class="listaheader">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/faq.html">FAQ</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-    </ul>
-</header>
-</section>
-</nav>
-<main>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-propio">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img style="filter: brightness(1:1); mix-blend-mode: multiply" src="../images/Logo2.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-itemh"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-itemh"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li class="nav-itemh"><a class="nav-link" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-itemh"><a class="nav-link" href="./pages/faq.html">FAQ</a>
+                  </li>
+                </li class="nav-item h"><a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+             </div>
+            </div>
+          </nav>
+    </header>
+<main class="container bg-propio1">
     <img src="../images/Folleto.jpg" alt="folletocontacto" class="folletocontacto">
     <h1>Formulario de Contacto</h1>
     <fieldset class="flex-form">
         <div> 
             <form action="">                 
                 <label for="Nombre y Apellido">Nombre y Apellido</label>         
-       <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" placeholder="Jesus Gimenez Deluca">
+       <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" placeholder="Jxxxx Gxxxxx">
                 <label for="Telefono">Telefono</label>    
-        <input type="tel" id="Telefono" name="Telefono" placeholder="+54922664497"> 
+        <input type="tel" id="Telefono" name="Telefono" placeholder="+549XXXXXXXX"> 
                 <label for="Email">Email</label>
-        <input type="email" id="Email" name="Email" placeholder="jdfjdgfgds@gmail.com" required>
+        <input type="email" id="Email" name="Email" placeholder="aaabbbccc@gmail.com" required>
                 <label for="Consulta">Consulta</label>
-        <textarea name="Consulta" id="Consulta" cols="30" rows="10"></textarea>
+        <textarea name="Consulta" id="Consulta" cols="20" rows="10"></textarea>
         <input type="submit" value="Enviar" name="Enviar">
         <input type="reset" value="Borrar" name="Borrar">
         </div>
 </form> 
     </fieldset>
 <div>
-
 </div>
 </main>
-<footer class="flex-div">
-    <ul class="listafooter">
-        <li><img src="../images/Facebook.png" alt="Facebook" class="facebook">Guet-It</li>
-        <li><img src="../images/Instagram.png" alt="Instagram" class="instagram">Guetitoficial</li>
-        <li><img src="../images/WP.png" alt="Whatsapp" class="wp"></li>
-        <li><img src="../images/Email.png" alt="Email" class="email">info@guet-it.com</li>
-        <li><img src="../images/Copyright.png" alt="Copyright" class="copr">Copyright</li>
-       Politica de privacidad y manejo de la información
-</ul>
+<footer class="container-fluid">
+    <nav class="navfooter navbar-expand-lg bg-propio">
+        <div class="container-fluid">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><img src="../images/Facebook.png" alt="face"><a class="face" aria-current="page" href="https://www.facebook.com/profile.php?id=100064311450671"></a></li>
+                <li class="nav-item"><img src="../images/Instagram.png" alt="ig"><a class="ig" href="https://www.instagram.com/guetitoficial/"></a></li>
+                <li class="nav-item"><img src="../images/WP.png" alt="wp"><a class="wp" href=""></a></li>
+                <li class="nav-item"><img src="../images/Email.png" alt="ema"><a class="ema" href="info@guet-it.com"></a></li>
+                <li class="nav-item"><img src="../images/Copyright.png" alt="cr"><a class="cr" href="#"></a></li>
+            </ul>
+         </div>
+        </div>
+      </nav>
 </footer>
-</nav>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>
