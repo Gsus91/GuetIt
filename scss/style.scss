@@ -1,113 +1,152 @@
-*{
+* {
     margin: auto;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-}
-body{
+  }
+  
+  body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-footer{
+  }
+  
+  footer {
     margin-top: auto;
-
-}
-.bg-propio{
+  }
+  .pinicio{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .pnosotros{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .pfaq{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .pcontacto{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .bg-propio {
     background-color: #64ed02;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1em;
     justify-content: space-evenly;
-    }
-.navbar-brand{
+  }
+  
+  .navbar-brand {
     width: 9em;
     height: 5em;
-}
-.bg-propio1 {
+  }
+  
+  .bg-propio1 {
     background-color: rgb(242, 245, 240);
-}
-.navfooter{
+  }
+  
+  .navfooter {
     height: 4em;
     justify-content: space-evenly;
     margin-top: 2em;
-}
-.navbar-nav{
+  }
+  
+  .navbar-nav {
     margin-top: 1em;
-}
-.wpp-fixed {
+  }
+  
+  .wpp-fixed {
     width: 1em;
     height: 1em;
-}
-.nav-item {
+  }
+  
+  .nav-item {
     width: 2em;
     height: 2em;
-}
-.bg-propio2 {
+  }
+  
+  .bg-propio2 {
     background-color: #64ed02;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1em;
     justify-content: space-evenly;
-}
-.nav {
+  }
+  
+  .nav {
     text-align: row;
-}
-.folletoi{
+  }
+  
+  .folletoi {
     width: 30em;
     height: 22em;
     margin-top: 3em;
     margin-left: 4em;
-}
-.listanuestra {
+  }
+  
+  .listanuestra {
     margin-left: 2em;
     margin-top: 3em;
-}
-h1{
+  }
+  
+  h1 {
     font-size: 2.5em;
     font-weight: bold;
-}
-.especies {
+  }
+  
+  .especies {
     font-size: 1.8em;
-}
-.navbar-footer {
+  }
+  
+  .navbar-footer {
     width: 5em;
     height: 3em;
     text-decoration: none;
     justify-content: space-evenly;
-}    
-.logonosotros {
+  }
+  
+  .logonosotros {
     width: 15em;
     height: 8em;
-}
-.listanosotros{
+  }
+  
+  .listanosotros {
     margin-top: 2em;
-}
-h2{
+  }
+  
+  h2 {
     font-weight: bold;
-}
-.logoFAQ{
+  }
+  
+  .logoFAQ {
     width: 15em;
     height: 8em;
-}
-.listafaq{
+  }
+  
+  .listafaq {
     margin-top: 2em;
-}
-h4{
+  }
+  
+  h4 {
     font-weight: bold;
     font-size: 1.8em;
-}
-h5{
+  }
+  
+  h5 {
     font-weight: bold;
     font-size: 1.8em;
-}
-.folletocontacto{
+  }
+  
+  .folletocontacto {
     width: 38em;
     height: 28em;
     margin-left: 14em;
     margin-bottom: 2em;
     margin-top: 2em;
-}
-.flex-form{
+  }
+  
+  .flex-form {
     margin-top: 1em;
-}
+  }
